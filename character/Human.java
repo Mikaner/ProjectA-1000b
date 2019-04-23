@@ -13,8 +13,14 @@ abstract class Human {
         this.locationY = locationY;
     }
 
-    abstract protected void hit();
-    abstract protected int getHp();
-    abstract protected int getLocationX();
-    abstract protected int getLocationY();
+    abstract protected void hit(int damage);
+    protected int getHp(){
+        return hp;
+    }
+    protected int getLocationX(){
+        return locationX;
+    }
+    protected int getLocationY(){
+        return locationY;
+    }
 }

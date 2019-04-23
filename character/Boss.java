@@ -9,21 +9,6 @@ public class Boss extends Human {
 
     @Override
     public void hit(int damage){
-        this.hp = this.hp - (damage-defense);
-    }
-    
-    @Override
-    public int getHp(){
-        return super.hp;
-    }
-
-    @Override
-    public int getLocationX(){
-        return super.locationX;
-    }
-
-    @Override
-    public int getLocationY(){
-        return super.locationY;
+        this.hp = this.hp - (damage-(damage > defense ? defense : damage));
     }
 }
