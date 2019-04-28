@@ -1,4 +1,4 @@
-package character;
+package shooting.character;
 
 public class Boss extends Human {
     int defense;

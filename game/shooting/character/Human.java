@@ -1,10 +1,10 @@
-package character;
+package shooting.character;
 
-abstract class Human {
+public abstract class Human {
     protected int hp;
-    protected int radius;
-    protected int locationX;
-    protected int locationY;
+    private int radius;
+    private int locationX;
+    private int locationY;
 
     public Human(int hp, int radius, int locationX, int locationY){
         this.hp = hp;
@@ -13,14 +13,14 @@ abstract class Human {
         this.locationY = locationY;
     }
 
-    abstract protected void hit(int damage);
-    protected int getHp(){
+    abstract public void hit(int damage);
+    public int getHp(){
         return hp;
     }
-    protected int getLocationX(){
+    public int getLocationX(){
         return locationX;
     }
-    protected int getLocationY(){
+    public int getLocationY(){
         return locationY;
     }
 }
