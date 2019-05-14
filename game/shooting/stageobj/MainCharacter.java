@@ -1,4 +1,4 @@
-package shooting.character;
+package shooting.stageobj;
 
 public class MainCharacter extends Human {
     public MainCharacter(int hp, int radius,int locationX, int locationY){

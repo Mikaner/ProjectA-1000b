@@ -1,4 +1,4 @@
-package shooting.character;
+package shooting.stageobj;
 
 public abstract class Human {
     protected int hp;
