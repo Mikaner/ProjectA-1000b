@@ -11,7 +11,7 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-public class Test extends Application {
+public class OperationTest extends Application {
     public static void main(String[] args) {
         launch(args);
     }
