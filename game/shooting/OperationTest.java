@@ -16,24 +16,29 @@ public class OperationTest extends Application {
         launch(args);
     }
 
+    Image im = new Image("shooting/sample1.png");
+
     //Main player
-    ImageView img = new ImageView(new File("shooting/sample1.png").toURI().toString());
+    ImageView img = new ImageView();
 
     boolean isLeft;
     boolean isRight;
     boolean isUp;
     boolean isDown;
+    boolean isSpace;
 
-    int sceneMaxX = 1000;
-    int sceneMaxY = 1000;
+    int sceneMaxX = 540;
+    int sceneMaxY = 960;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
         Pane p = new Pane();
-        p.setPrefSize(20,20);
+        p.setPrefSize(1,1);
         Scene scene = new Scene(p,sceneMaxX,sceneMaxY);
         primaryStage.setScene(scene);
+        scene.getStylesheets().add(OperationTest.class.getResource("stage.css").toExternalForm());
         primaryStage.show();
+        img.setImage(im);
 
         p.getChildren().add(img);
 
@@ -61,6 +66,9 @@ public class OperationTest extends Application {
         if ( isDown ) {
             if(img.getY() < sceneMaxY )img.setY(img.getY()+3);
         }
+        if ( isSpace ) {
+            System.out.println(img.getX());
+        }
     }
 
     private void keyPressed(KeyEvent e) {
@@ -76,6 +84,9 @@ public class OperationTest extends Application {
                 break;
             case DOWN:
                 isDown = true;
+                break;
+            case SPACE:
+                isSpace = true;
                 break;
             default:
                 break;
@@ -95,6 +106,9 @@ public class OperationTest extends Application {
                 break;
             case DOWN:
                 isDown = false;
+                break;
+            case SPACE:
+                isSpace = false;
                 break;
             default:
                 break;
