@@ -16,8 +16,8 @@ TagManager:
   - Message
   - MessageBackground
   - 
-  - Talking
-  - UnTalking
+  - LeftTalking
+  - RightTalking
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: LeftTalking
+    uniqueID: 287864637
+    locked: 0
+  - name: RightTalking
+    uniqueID: 3831691101
     locked: 0
