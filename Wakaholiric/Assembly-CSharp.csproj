@@ -55,6 +55,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Completed-Assets\Scripts\Background.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\bullet_move.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\DestroyArea.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\Emitter.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\Explosion.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\Manager.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\Spaceship.cs" />
      <Compile Include="Assets\Scripts\CommandClear.cs" />
      <Compile Include="Assets\Scripts\CommandController.cs" />
      <Compile Include="Assets\Scripts\CommandJumpNextScenario.cs" />
