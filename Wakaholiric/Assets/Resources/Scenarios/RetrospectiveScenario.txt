@@ -1,0 +1,88 @@
+
+@br
+
+// img name=CenterTalking image=何もないpng
+
+
+//～片桐回想～
+
+// img name=BackGround image=回想オフィス背景
+// img name=RighttTalking image=上司png
+// img name=LeftTalking image=片桐暗いpng
+
+@name text=上司
+
+「片桐君、君のチームあんまり上手くいってない様に見えるけど大丈夫？」
+
+@br
+
+// img name=RightTalking image=上司暗いpng
+// img name=LeftTalking image=片桐png
+
+@name text=片桐
+
+「うちの若手が何を考えているかわからないもので、どう接していいものか…」
+
+@br
+
+// img name=RightTalking image=上司
+// img name=LeftTalking image=片桐暗く
+
+@name text=上司
+
+「例の若堀君のことかい？」
+
+@br
+
+// img name=RightTalking image=上司暗く
+// img name=LeftTalking image=片桐
+
+@name text=片桐
+
+「はい、そうです。」
+
+@br
+
+// img name=RightTalking image=上司
+// img name=LeftTalking image=片桐暗く
+
+@name text=上司
+
+「まぁ、上手くやってくれないとこっちの評価にも影響出るからねぇ」
+
+@br
+
+「まぁとにかく、よろしく頼むよ」
+
+@br
+
+// img name=RightTalking image=上司暗く
+// img name=LeftTalking image=片桐
+
+@name text=片桐
+
+「はい、申し訳ございません」
+
+@br
+
+// img name=RightTalking image=何もない
+// img name=LeftTalking image=片桐
+
+（はぁぁ、まいったなぁ…いったいどうしたものか。）
+
+@br
+
+（若者が考えることなんて分からないしなぁ、しかも若堀君やしなぁ。）
+
+@br
+
+（あいつのせいで俺のメンツも危ういな...）
+
+// もうちょっと片桐いい人感でない？
+
+@br
+
+//・頑固、厳しくする感じ？上司の苦悩・具体的
+//中和必須
+
+@jump fileName=DreamScenario2

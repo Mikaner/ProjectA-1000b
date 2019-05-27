@@ -81,7 +81,6 @@ public class ScenarioManager : SingletonMonoBehaviourFast<ScenarioManager>
         if( m_textController.IsCompleteDisplayText ){
             if( m_currentLine < m_scenarios.Length ){
                 if( !m_isCallPreload ){
-                    // NullReferenceException
                     m_commandController.PreloadCommand(m_scenarios[m_currentLine]);
                     m_isCallPreload = true;
                 }

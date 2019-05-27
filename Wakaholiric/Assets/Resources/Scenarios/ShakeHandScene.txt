@@ -1,0 +1,11 @@
+
+@br
+
+// img name=CenterTalking image=何もない
+// img name=BackGround image=握手
+
+二人は笑顔で握手を交わした。
+
+@br
+
+～fin～

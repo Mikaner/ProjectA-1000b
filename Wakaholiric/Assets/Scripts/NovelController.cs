@@ -47,6 +47,7 @@ public class NovelController : MonoBehaviour
     {
         loadText();
         loadNext();
+        
     }
 
     // Update is called once per frame

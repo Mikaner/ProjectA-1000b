@@ -18,7 +18,14 @@ public class CommandUpdateImage : ICommand, IPreCommand {
         var fileName = command["image"];
         var objectName = command["name"];
 
+        foreach (GameObject item in GameObject.FindGameObjectsWithTag("Layer"))
+        {
+            Debug.Log(item.name);
+        }
+
         var obj = Array.Find<GameObject>( GameObject.FindGameObjectsWithTag("Layer") ,item => item.name == objectName);
+        Debug.Log("obj\n"+obj);
+        Debug.Log("objGC\n"+obj.GetComponent<Layer>());
         obj.GetComponent<Layer>().UpdateTexture( TextureresourceManager.Load(fileName));
     }
 }

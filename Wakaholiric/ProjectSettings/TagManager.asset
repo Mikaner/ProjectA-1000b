@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Layer
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - Message
   - MessageBackground
   - 
-  - LeftTalking
-  - RightTalking
+  - 
+  - 
   - 
   - 
   - 
@@ -41,9 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: LeftTalking
-    uniqueID: 287864637
-    locked: 0
-  - name: RightTalking
+  - name: UnTalking
     uniqueID: 3831691101
+    locked: 0
+  - name: Talking
+    uniqueID: 287864637
     locked: 0
