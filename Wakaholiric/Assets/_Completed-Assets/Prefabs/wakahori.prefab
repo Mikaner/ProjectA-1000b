@@ -71,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 979189183
+  m_SortingLayerID: 287864637
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 974325a9f22231243b67a7fe182e69a5, type: 3}
@@ -152,7 +152,7 @@ MonoBehaviour:
   speed: 5
   shotDelay: 0.05
   bullet: {fileID: 7434059651283977434, guid: 0ca3364e246f7444ba51440aaf258f14, type: 3}
-  canShot: 0
+  canShot: 1
   explosion: {fileID: 100000, guid: a7ed0315d0e664da9bcb03d47e23e682, type: 3}
 --- !u!61 &7694197820738384757
 BoxCollider2D:
