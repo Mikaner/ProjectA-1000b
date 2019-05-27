@@ -16,12 +16,15 @@ public class Layer : MonoBehaviour
             TextureresourceManager.Mark(texture.name);
         }
     }
+
 #region UNITY_DELEGATE
 
     void Awake () {
         m_rawImage = GetComponent<RawImage>();
         gameObject.tag = "Layer";
 
+        Debug.Log("rawImage\n"+m_rawImage);
+        // null
         m_rawImage.enabled = false;
     }
 #endregion

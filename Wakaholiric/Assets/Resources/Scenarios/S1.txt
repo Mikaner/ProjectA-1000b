@@ -1,7 +1,12 @@
+@img name=BackGround image=background_think
+
 こんにちは
 
-@img name=Layer1 image=portrait_kohaku_01
 @br
+
+@name text=Mikaner
+
+@img name=RightTalking image=portrait_kohaku_01
 
 私の名前はMikaner
 
@@ -11,19 +16,8 @@
 
 @br
 
+@img name=LeftTalking image=portrait_kohaku_01
+
 割とマジでしんどい
 
-@br
-
-吾輩（わがはい）は猫である。
-名前はまだ無い。
-
-@br
-
-// これは冒頭のセリフです。
-
-どこで生れたかとんと見当（けんとう）がつかぬ。
-
-@br
-
-何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。 // と思っているのか？ 
+@jump fileName=S2

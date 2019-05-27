@@ -55,19 +55,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CommandClear.cs" />
      <Compile Include="Assets\Scripts\CommandController.cs" />
      <Compile Include="Assets\Scripts\CommandJumpNextScenario.cs" />
+     <Compile Include="Assets\Scripts\CommandMoveScene.cs" />
+     <Compile Include="Assets\Scripts\CommandSetName.cs" />
      <Compile Include="Assets\Scripts\CommandUpdateImage.cs" />
      <Compile Include="Assets\Scripts\ICommand.cs" />
-     <Compile Include="Assets\Scripts\InputController.cs" />
      <Compile Include="Assets\Scripts\Layer.cs" />
      <Compile Include="Assets\Scripts\NovelController.cs" />
      <Compile Include="Assets\Scripts\ScenarioManager.cs" />
      <Compile Include="Assets\Scripts\SingletonMonoBehaviourFast.cs" />
      <Compile Include="Assets\Scripts\TextController.cs" />
      <Compile Include="Assets\Scripts\TextureresourceManager.cs" />
+     <Compile Include="Assets\Scripts\TitleScripts.cs" />
+     <None Include="Assets\Resources\Scenarios\DreamScenario.txt" />
+     <None Include="Assets\Resources\Scenarios\ShakeHandScene.txt" />
+     <None Include="Assets\Resources\Scenarios\RoomScenario.txt" />
+     <None Include="Assets\Resources\Scenarios\TrainScenario.txt" />
      <None Include="Assets\Resources\Test.txt" />
+     <None Include="Assets\Resources\Scenarios\DreamScenario2.txt" />
+     <None Include="Assets\Resources\Scenarios\BaseScenario.txt" />
      <None Include="Assets\Resources\Scenarios\S1.txt" />
+     <None Include="Assets\Resources\Scenarios\S2.txt" />
+     <None Include="Assets\Resources\Scenarios\LastSceneScenario.txt" />
+     <None Include="Assets\Resources\Scenarios\RetrospectiveScenario.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/c0118259dc/Programs/ProjectA-1000b/ProjectA-1000b/Wakaholiric/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

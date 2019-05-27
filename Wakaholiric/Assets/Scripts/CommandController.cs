@@ -9,6 +9,8 @@ public class CommandController : SingletonMonoBehaviourFast<CommandController>
     private readonly List<ICommand> m_commandList = new List<ICommand>() {
         new CommandUpdateImage(), //name=オブジェクト名 image=イメージ名
         new CommandJumpNextScenario(), // fileName=シナリオ名
+        new CommandSetName(), // text=キャラクター名
+        new CommandMoveScene(), // scene=シーン名
     };
 
     // 文字列の表示が完了したタイミングで呼ばれる処理
