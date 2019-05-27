@@ -14,11 +14,11 @@ TagManager:
   - UI
   - 
   - 
-  - Message
-  - MessageBackground
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Bullet(Player)
+  - Bullet(Enemy)
+  - DestroyArea
   - 
   - 
   - 
