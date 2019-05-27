@@ -1,0 +1,23 @@
+@img name=BackGround image=background_think
+
+こんにちは
+
+@br
+
+@name text=Mikaner
+
+@img name=RightTalking image=portrait_kohaku_01
+
+私の名前はMikaner
+
+@br
+
+今日はみんなに伝えたいことがあるの
+
+@br
+
+@img name=LeftTalking image=portrait_kohaku_01
+
+割とマジでしんどい
+
+@jump fileName=S2
