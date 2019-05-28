@@ -9,11 +9,15 @@ namespace CompletedAssets
 	
 		// タイトル
 		private GameObject title;
+        private GameObject cleartext;
+
+        public bool flg = false;
 
 		void Start ()
 		{
 			// Titleゲームオブジェクトを検索し取得する
 			title = GameObject.Find ("Title");
+            cleartext = GameObject.Find("ClearText");
 		}
 
 		void Update ()
@@ -28,6 +32,7 @@ namespace CompletedAssets
 		{
 			// ゲームスタート時に、タイトルを非表示にしてプレイヤーを作成する
 			title.SetActive (false);
+            cleartext.SetActive(false);
 			Instantiate (player, player.transform.position, player.transform.rotation);
 		}
 
@@ -38,10 +43,19 @@ namespace CompletedAssets
 			title.SetActive (true);
 		}
 
+        public void GameClear ()
+        {
+            FindObjectOfType<Score> ().Save ();
+            cleartext.SetActive(true);
+            flg = true;
+            FindObjectOfType<Emitter> ().Destroy();
+        }
+
 		public bool IsPlaying ()
 		{
-			// ゲーム中かどうかはタイトルの表示/非表示で判断する
-			return title.activeSelf == false;
+            // ゲーム中かどうかはタイトルの表示/非表示で判断する
+            return ((title.activeSelf == false) || (cleartext.activeSelf == false));
+            //return flg==false;
 		}
 	}
 }

@@ -53,5 +53,10 @@ namespace CompletedAssets
 			
 			}
 		}
+
+        public void Destroy()
+        {
+            Destroy(gameObject);
+        }
 	}
 }
