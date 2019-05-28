@@ -62,14 +62,14 @@
 
 @br
 
-// img name=RightTalking image=
-// img name=LeftTalking image=
-
 @name text=取り巻きA,B
 
 「あらほらさっさー！」
 
+@br
 //＊バトルシーン突入
+
+@scn scene=Shooting
 
 //＊バトル１終了　取り巻き・上司撃破
 
