@@ -10,5 +10,6 @@ public class CommandClear : ICommand
 
     public void Command(Dictionary<string, string> command) {
         var scenario = ScenarioManager.Instance;
+        //scenario.clear();
     }
 }
