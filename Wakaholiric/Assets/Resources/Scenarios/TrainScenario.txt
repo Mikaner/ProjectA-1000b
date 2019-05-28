@@ -1,6 +1,8 @@
 @br
 
+@clear
 //＊電車場面・暗転
+@img name=BackGround image=background_train
 
 @name text=若堀
 
