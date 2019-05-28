@@ -11,6 +11,7 @@ public class CommandController : SingletonMonoBehaviourFast<CommandController>
         new CommandJumpNextScenario(), // fileName=シナリオ名
         new CommandSetName(), // text=キャラクター名
         new CommandMoveScene(), // scene=シーン名
+        new CommandClear(),
     };
 
     // 文字列の表示が完了したタイミングで呼ばれる処理

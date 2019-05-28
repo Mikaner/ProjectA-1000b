@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CommandClear : ICommand
 {
@@ -9,7 +10,9 @@ public class CommandClear : ICommand
     }
 
     public void Command(Dictionary<string, string> command) {
-        var scenario = ScenarioManager.Instance;
-        //scenario.clear();
+        foreach (GameObject item in GameObject.FindGameObjectsWithTag("Layer"))
+        {
+            item.GetComponent<RawImage>().texture = null;
+        }
     }
 }

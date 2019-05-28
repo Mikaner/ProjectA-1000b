@@ -6,8 +6,6 @@
 
 @name text=若堀
 
-@img name=BackGround image=background_think
-
 時刻は22:00を回ったころである。
 
 @br
