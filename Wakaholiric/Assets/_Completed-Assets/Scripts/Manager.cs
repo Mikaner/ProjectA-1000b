@@ -55,7 +55,7 @@ namespace CompletedAssets
 		public bool IsPlaying ()
 		{
             // ゲーム中かどうかはタイトルの表示/非表示で判断する
-            return (title.activeSelf == false);
+            return title.activeSelf == false;
             //return flg==false;
 		}
 	}
