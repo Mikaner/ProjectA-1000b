@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,9 +11,8 @@ public class CommandClear : ICommand
     }
 
     public void Command(Dictionary<string, string> command) {
-        foreach (GameObject item in GameObject.FindGameObjectsWithTag("Layer"))
-        {
-            item.GetComponent<RawImage>().texture = null;
-        }
+        var objectName = command["obj"];
+        var obj = Array.Find<GameObject>(GameObject.FindGameObjectsWithTag("Layer"), item => item.name == objectName);
+        obj.GetComponent<Layer>().UpdateTexture(null);
     }
 }

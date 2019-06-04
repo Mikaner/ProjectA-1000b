@@ -24,7 +24,6 @@ public class Layer : MonoBehaviour
         gameObject.tag = "Layer";
 
         Debug.Log("rawImage\n"+m_rawImage);
-        // null
         m_rawImage.enabled = false;
     }
 #endregion

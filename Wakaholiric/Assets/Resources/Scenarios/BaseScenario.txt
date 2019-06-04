@@ -2,7 +2,7 @@
 
 
 //1章（導入）
-
+@img name=BackGround image=background_think
 
 @name text=若堀
 
@@ -129,5 +129,31 @@
 
 「じゃーあと
 　( ｀・∀・´)ﾉﾖﾛｼｸー」
+
+
+@br
+
+@clear obj=CenterTalking
+
+@name text=取り巻きA
+
+「じゃ、じゃあな。
+　ち、ちゃんとやっておけよ！」
+
+@br
+
+@clear obj=LeftTalking
+
+@name text=取り巻きB
+
+「せいぜい頑張れよぉ」
+
+@br
+
+@name text=若堀
+
+@clear obj=RightTalking
+
+「.......」
 
 @jump fileName=TrainScenario
