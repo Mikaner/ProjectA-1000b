@@ -16,16 +16,12 @@
 
 @br
 
-// img name=CenterTalking image=
-
 @name text=片桐
 
 「何馬鹿なこと言ってんだ、ここは会社だゾ！
 　仕事中に居眠りとはいい度胸をしているじゃないか！」
 
 @br
-
-// img name=BackGround image=
 
 @name text=若堀
 
