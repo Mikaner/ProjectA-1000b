@@ -18,12 +18,13 @@ namespace CompletedAssets
 			// Titleゲームオブジェクトを検索し取得する
 			title = GameObject.Find ("Title");
             cleartext = GameObject.Find("ClearText");
-		}
+            cleartext.SetActive(false);
+        }
 
 		void Update ()
 		{
 			// ゲーム中ではなく、Xキーが押されたらtrueを返す。
-			if (IsPlaying () == false && Input.GetKeyDown (KeyCode.X)) {
+			if (IsPlaying () == false && Input.GetKeyDown (KeyCode.X) && flg==false) {
 				GameStart ();
 			}
 		}
@@ -54,7 +55,7 @@ namespace CompletedAssets
 		public bool IsPlaying ()
 		{
             // ゲーム中かどうかはタイトルの表示/非表示で判断する
-            return ((title.activeSelf == false) || (cleartext.activeSelf == false));
+            return (title.activeSelf == false);
             //return flg==false;
 		}
 	}
